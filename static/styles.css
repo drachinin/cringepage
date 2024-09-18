@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fd9bd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    line-height: 0.5;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.image-button {
+    padding: 30px;
+    width: 250px; /* Ширина картинки */
+    height: 200px; /* Высота картинки */
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.stats h2 {
+    color: #333;
+}
+
+.stats p {
+    font-size: 18px;
+}
+
+.stats span {
+    font-weight: bold;
+}
